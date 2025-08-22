@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar">
+            <div class="progress-fill" id="progressFill"></div>
+            <div class="progress-empty" id="progressFill"></div>
+            <div class="progress-text completed" id="progressText1">1</div>
+            <div class="progress-text" id="progressText2">2</div>
+            <div class="progress-text" id="progressText3">3</div>
+            <div class="progress-text" id="progressText4">4</div>
+        </div>
+        <div class="progress-button">
+            <button id="previous" class="button" onclick="previous()" disabled>Previous</button>
+            <button id="next" class="button" onclick="next();">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
